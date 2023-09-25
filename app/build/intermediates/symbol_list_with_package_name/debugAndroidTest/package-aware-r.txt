@@ -1,0 +1,3 @@
+com.bada.widgetprac.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,107 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.bada.widgetprac"
+4    android:versionCode="2"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <permission
+11-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
+12        android:name="com.bada.widgetprac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+12-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
+13        android:protectionLevel="signature" />
+13-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
+14
+15    <uses-permission android:name="com.bada.widgetprac.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+15-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
+15-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
+16
+17    <application
+17-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:5:5-39:19
+18        android:name="com.bada.widgetprac.MyApplication"
+18-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:16:9-38
+19        android:allowBackup="true"
+19-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:6:9-35
+20        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+20-->[androidx.core:core:1.9.0] C:\Users\habac\.gradle\caches\transforms-3\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
+21        android:dataExtractionRules="@xml/data_extraction_rules"
+21-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:7:9-65
+22        android:extractNativeLibs="false"
+23        android:fullBackupContent="@xml/backup_rules"
+23-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:8:9-54
+24        android:icon="@mipmap/watering_launcher"
+24-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:9:9-49
+25        android:label="@string/app_name"
+25-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:10:9-41
+26        android:roundIcon="@mipmap/watering_launcher_round"
+26-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:11:9-60
+27        android:supportsRtl="true"
+27-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:12:9-35
+28        android:theme="@style/Theme.WidgetPrac" >
+28-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:13:9-48
+29        <receiver
+29-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:18:9-28:20
+30            android:name="com.bada.widgetprac.PracWidget"
+30-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:19:13-39
+31            android:exported="false" >
+31-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:20:13-37
+32            <intent-filter>
+32-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:21:13-23:29
+33                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+33-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:22:17-84
+33-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:22:25-81
+34            </intent-filter>
+35
+36            <meta-data
+36-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:25:13-27:60
+37                android:name="android.appwidget.provider"
+37-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:26:17-58
+38                android:resource="@xml/prac_widget_info" />
+38-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:27:17-57
+39        </receiver>
+40
+41        <activity
+41-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:30:9-38:20
+42            android:name="com.bada.widgetprac.MainActivity"
+42-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:31:13-41
+43            android:exported="true" >
+43-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:32:13-36
+44            <intent-filter>
+44-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:33:13-37:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:34:17-69
+45-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:34:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:36:17-77
+47-->C:\Users\habac\AndroidStudioProjects\widgetPrac\app\src\main\AndroidManifest.xml:36:27-74
+48            </intent-filter>
+49        </activity>
+50
+51        <provider
+51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+52            android:name="androidx.startup.InitializationProvider"
+52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+53            android:authorities="com.bada.widgetprac.androidx-startup"
+53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+54            android:exported="false" >
+54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+55            <meta-data
+55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+57                android:value="androidx.startup" />
+57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+58            <meta-data
+58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+60                android:value="androidx.startup" />
+60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+61        </provider>
+62    </application>
+63
+64</manifest>
