@@ -81,27 +81,40 @@
 48            </intent-filter>
 49        </activity>
 50
-51        <provider
-51-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
-52            android:name="androidx.startup.InitializationProvider"
-52-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
-53            android:authorities="com.bada.widgetprac.androidx-startup"
-53-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
-54            android:exported="false" >
-54-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
-55            <meta-data
-55-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
-56                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-56-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
-57                android:value="androidx.startup" />
-57-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
-58            <meta-data
-58-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
-59                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-59-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
-60                android:value="androidx.startup" />
-60-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
-61        </provider>
-62    </application>
-63
-64</manifest>
+51        <uses-library
+51-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:25:9-27:40
+52            android:name="androidx.window.extensions"
+52-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:26:13-54
+53            android:required="false" />
+53-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:27:13-37
+54        <uses-library
+54-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:28:9-30:40
+55            android:name="androidx.window.sidecar"
+55-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:29:13-51
+56            android:required="false" />
+56-->[androidx.window:window:1.0.0] C:\Users\habac\.gradle\caches\transforms-3\ce6dd588ce8a80665468ca2adbaada9a\transformed\window-1.0.0\AndroidManifest.xml:30:13-37
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+60            android:authorities="com.bada.widgetprac.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] C:\Users\habac\.gradle\caches\transforms-3\f15c04723ee6cea6d4f866569d92694c\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\habac\.gradle\caches\transforms-3\b6a292879fd25d2d05f56491740c994d\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>

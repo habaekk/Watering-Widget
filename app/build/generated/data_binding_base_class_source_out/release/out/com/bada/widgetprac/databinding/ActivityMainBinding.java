@@ -4,7 +4,6 @@ package com.bada.widgetprac.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
@@ -13,6 +12,7 @@ import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewbinding.ViewBinding;
 import androidx.viewbinding.ViewBindings;
 import com.bada.widgetprac.R;
+import com.google.android.material.bottomnavigation.BottomNavigationView;
 import java.lang.NullPointerException;
 import java.lang.Override;
 import java.lang.String;
@@ -20,6 +20,9 @@ import java.lang.String;
 public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   private final ConstraintLayout rootView;
+
+  @NonNull
+  public final BottomNavigationView bottomNavigation;
 
   @NonNull
   public final ImageView cup1;
@@ -52,21 +55,16 @@ public final class ActivityMainBinding implements ViewBinding {
   public final ImageView cup9;
 
   @NonNull
-  public final ImageButton minusButton;
-
-  @NonNull
   public final TextView numCups;
 
-  @NonNull
-  public final ImageButton plusButton;
-
-  private ActivityMainBinding(@NonNull ConstraintLayout rootView, @NonNull ImageView cup1,
+  private ActivityMainBinding(@NonNull ConstraintLayout rootView,
+      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageView cup1,
       @NonNull ImageView cup10, @NonNull ImageView cup2, @NonNull ImageView cup3,
       @NonNull ImageView cup4, @NonNull ImageView cup5, @NonNull ImageView cup6,
       @NonNull ImageView cup7, @NonNull ImageView cup8, @NonNull ImageView cup9,
-      @NonNull ImageButton minusButton, @NonNull TextView numCups,
-      @NonNull ImageButton plusButton) {
+      @NonNull TextView numCups) {
     this.rootView = rootView;
+    this.bottomNavigation = bottomNavigation;
     this.cup1 = cup1;
     this.cup10 = cup10;
     this.cup2 = cup2;
@@ -77,9 +75,7 @@ public final class ActivityMainBinding implements ViewBinding {
     this.cup7 = cup7;
     this.cup8 = cup8;
     this.cup9 = cup9;
-    this.minusButton = minusButton;
     this.numCups = numCups;
-    this.plusButton = plusButton;
   }
 
   @Override
@@ -109,6 +105,12 @@ public final class ActivityMainBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bottomNavigation;
+      BottomNavigationView bottomNavigation = ViewBindings.findChildViewById(rootView, id);
+      if (bottomNavigation == null) {
+        break missingId;
+      }
+
       id = R.id.cup1;
       ImageView cup1 = ViewBindings.findChildViewById(rootView, id);
       if (cup1 == null) {
@@ -169,26 +171,14 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.minusButton;
-      ImageButton minusButton = ViewBindings.findChildViewById(rootView, id);
-      if (minusButton == null) {
-        break missingId;
-      }
-
       id = R.id.numCups;
       TextView numCups = ViewBindings.findChildViewById(rootView, id);
       if (numCups == null) {
         break missingId;
       }
 
-      id = R.id.plusButton;
-      ImageButton plusButton = ViewBindings.findChildViewById(rootView, id);
-      if (plusButton == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, cup1, cup10, cup2, cup3, cup4,
-          cup5, cup6, cup7, cup8, cup9, minusButton, numCups, plusButton);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, cup1, cup10,
+          cup2, cup3, cup4, cup5, cup6, cup7, cup8, cup9, numCups);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

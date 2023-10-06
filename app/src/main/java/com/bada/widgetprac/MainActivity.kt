@@ -15,8 +15,7 @@ class MainActivity : AppCompatActivity() {
 
 
         val counterNum = findViewById<TextView>(R.id.numCups)
-         val plusButton = findViewById<ImageButton>(R.id.plusButton)
-         val minusButton = findViewById<ImageButton>(R.id.minusButton)
+
         val cup1 = findViewById<ImageView>(R.id.cup1)
         val cup2 = findViewById<ImageView>(R.id.cup2)
         val cup3 = findViewById<ImageView>(R.id.cup3)
@@ -32,6 +31,11 @@ class MainActivity : AppCompatActivity() {
         var counter = 0
 
         val cups = arrayOf(cup1, cup2, cup3, cup4, cup5, cup6, cup7, cup8, cup9, cup10)
+        /*
+
+        val plusButton = findViewById<ImageButton>(R.id.plusButton)
+        val minusButton = findViewById<ImageButton>(R.id.minusButton)
+
 
         plusButton.setOnClickListener {
             println("plus")
@@ -58,6 +62,8 @@ class MainActivity : AppCompatActivity() {
                 cups[counter].setImageResource(R.drawable.cup_empty)
             }
         }
+
+         */
 
 
     }

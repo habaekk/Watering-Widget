@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-28:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
+            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-44:/values-h550dp-port-v13/values-h550dp-port-v13.xml",
             "map": [
                 {
                     "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\2005ea55dfb3e5fef88b971c6d1ef30b\\transformed\\material-1.9.0\\res\\values-h550dp-port-v13\\values-h550dp-port-v13.xml",

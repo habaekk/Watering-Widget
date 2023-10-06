@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-28:/values-v25/values-v25.xml",
+            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-44:/values-v25/values-v25.xml",
             "map": [
                 {
                     "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\671294f13a5fc7ef8d1ee527d251baa4\\transformed\\appcompat-1.6.1\\res\\values-v25\\values-v25.xml",

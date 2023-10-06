@@ -1,14 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-mergeReleaseResources-29:\\layout\\activity_main.xml",
-        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-31:\\layout\\activity_main.xml"
+        "merged": "com.bada.widgetprac.app-mergeReleaseResources-45:/layout/prac_widget.xml",
+        "source": "com.bada.widgetprac.app-main-47:/layout/prac_widget.xml"
     },
     {
-        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-mergeReleaseResources-29:\\layout\\prac_widget.xml",
-        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-31:\\layout\\prac_widget.xml"
-    },
-    {
-        "merged": "com.bada.widgetprac.app-mergeReleaseResources-29:/layout/activity_main.xml",
-        "source": "com.bada.widgetprac.app-main-31:/layout/activity_main.xml"
+        "merged": "com.bada.widgetprac.app-mergeReleaseResources-45:/layout/activity_main.xml",
+        "source": "com.bada.widgetprac.app-main-47:/layout/activity_main.xml"
     }
 ]
