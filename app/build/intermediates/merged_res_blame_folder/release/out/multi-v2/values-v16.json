@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-44:/values-v16/values-v16.xml",
+            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-53:/values-v16/values-v16.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\671294f13a5fc7ef8d1ee527d251baa4\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\0aada794ce919f5daf9ee0b8ca676275\\transformed\\appcompat-1.6.1\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\fd7a3e5d1c8ff0d3a7fd8dbd0f2195d0\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
+                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\2e673dbd5ddd292e19dbb754d5176cb5\\transformed\\core-1.9.0\\res\\values-v16\\values-v16.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

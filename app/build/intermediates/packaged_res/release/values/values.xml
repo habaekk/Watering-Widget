@@ -1,5 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <string-array name="components_array">
+        <item>1L (Large)</item>
+        <item>550ml(Medium)</item>
+        <item>220ml (Small)</item>
+    </string-array>
     <color name="black">#FF000000</color>
     <color name="light_blue_200">#FF81D4FA</color>
     <color name="light_blue_50">#FFE1F5FE</color>
@@ -13,6 +18,8 @@
     <string name="app_name">물꼬대</string>
     <string name="app_widget_description">물꼬대 위젯 입니다</string>
     <string name="appwidget_text">물꼬대 위젯</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav">NavActivity</string>
     <style name="Base.Theme.WidgetPrac" parent="Theme.Material3.DayNight.NoActionBar">
         
         

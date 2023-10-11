@@ -4,8 +4,6 @@ package com.bada.widgetprac.databinding;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
-import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
 import androidx.constraintlayout.widget.ConstraintLayout;
@@ -24,58 +22,10 @@ public final class ActivityMainBinding implements ViewBinding {
   @NonNull
   public final BottomNavigationView bottomNavigation;
 
-  @NonNull
-  public final ImageView cup1;
-
-  @NonNull
-  public final ImageView cup10;
-
-  @NonNull
-  public final ImageView cup2;
-
-  @NonNull
-  public final ImageView cup3;
-
-  @NonNull
-  public final ImageView cup4;
-
-  @NonNull
-  public final ImageView cup5;
-
-  @NonNull
-  public final ImageView cup6;
-
-  @NonNull
-  public final ImageView cup7;
-
-  @NonNull
-  public final ImageView cup8;
-
-  @NonNull
-  public final ImageView cup9;
-
-  @NonNull
-  public final TextView numCups;
-
   private ActivityMainBinding(@NonNull ConstraintLayout rootView,
-      @NonNull BottomNavigationView bottomNavigation, @NonNull ImageView cup1,
-      @NonNull ImageView cup10, @NonNull ImageView cup2, @NonNull ImageView cup3,
-      @NonNull ImageView cup4, @NonNull ImageView cup5, @NonNull ImageView cup6,
-      @NonNull ImageView cup7, @NonNull ImageView cup8, @NonNull ImageView cup9,
-      @NonNull TextView numCups) {
+      @NonNull BottomNavigationView bottomNavigation) {
     this.rootView = rootView;
     this.bottomNavigation = bottomNavigation;
-    this.cup1 = cup1;
-    this.cup10 = cup10;
-    this.cup2 = cup2;
-    this.cup3 = cup3;
-    this.cup4 = cup4;
-    this.cup5 = cup5;
-    this.cup6 = cup6;
-    this.cup7 = cup7;
-    this.cup8 = cup8;
-    this.cup9 = cup9;
-    this.numCups = numCups;
   }
 
   @Override
@@ -111,74 +61,7 @@ public final class ActivityMainBinding implements ViewBinding {
         break missingId;
       }
 
-      id = R.id.cup1;
-      ImageView cup1 = ViewBindings.findChildViewById(rootView, id);
-      if (cup1 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup10;
-      ImageView cup10 = ViewBindings.findChildViewById(rootView, id);
-      if (cup10 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup2;
-      ImageView cup2 = ViewBindings.findChildViewById(rootView, id);
-      if (cup2 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup3;
-      ImageView cup3 = ViewBindings.findChildViewById(rootView, id);
-      if (cup3 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup4;
-      ImageView cup4 = ViewBindings.findChildViewById(rootView, id);
-      if (cup4 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup5;
-      ImageView cup5 = ViewBindings.findChildViewById(rootView, id);
-      if (cup5 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup6;
-      ImageView cup6 = ViewBindings.findChildViewById(rootView, id);
-      if (cup6 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup7;
-      ImageView cup7 = ViewBindings.findChildViewById(rootView, id);
-      if (cup7 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup8;
-      ImageView cup8 = ViewBindings.findChildViewById(rootView, id);
-      if (cup8 == null) {
-        break missingId;
-      }
-
-      id = R.id.cup9;
-      ImageView cup9 = ViewBindings.findChildViewById(rootView, id);
-      if (cup9 == null) {
-        break missingId;
-      }
-
-      id = R.id.numCups;
-      TextView numCups = ViewBindings.findChildViewById(rootView, id);
-      if (numCups == null) {
-        break missingId;
-      }
-
-      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation, cup1, cup10,
-          cup2, cup3, cup4, cup5, cup6, cup7, cup8, cup9, numCups);
+      return new ActivityMainBinding((ConstraintLayout) rootView, bottomNavigation);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));

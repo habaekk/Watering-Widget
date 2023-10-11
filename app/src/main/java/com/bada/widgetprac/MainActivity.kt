@@ -13,7 +13,6 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-
         val counterNum = findViewById<TextView>(R.id.numCups)
 
         val cup1 = findViewById<ImageView>(R.id.cup1)
@@ -65,11 +64,11 @@ class MainActivity : AppCompatActivity() {
 
          */
 
-
     }
 
     override fun onResume() {
         super.onResume()
+
         var counter : Int = 0
 
         val cup1 = findViewById<ImageView>(R.id.cup1)
@@ -99,5 +98,6 @@ class MainActivity : AppCompatActivity() {
                 cups[i].setImageResource(R.drawable.cup_filled)
             }
         }
+
     }
 }

@@ -1,5 +1,6 @@
 R_DEF: Internal format may change without notice
 local
+array components_array
 attr? appWidgetInnerRadius
 attr? appWidgetPadding
 attr? appWidgetRadius
@@ -20,6 +21,11 @@ drawable bottle_filled
 drawable boundary
 drawable cup_empty
 drawable cup_filled
+drawable details_1
+drawable details_2
+drawable details_3
+drawable details_4
+drawable details_5
 drawable example_appwidget_preview
 drawable ic_details
 drawable ic_home
@@ -27,7 +33,9 @@ drawable ic_settings
 drawable minus
 drawable plus
 drawable reset
+id applyButton
 id bottomNavigation
+id componentSelectionSpinner
 id cup1
 id cup10
 id cup2
@@ -48,12 +56,31 @@ id cupButton6
 id cupButton7
 id cupButton8
 id cupButton9
-id navigation_details
-id navigation_main
-id navigation_settings
+id description1
+id description2
+id description3
+id description4
+id description5
+id detailsFragment
+id details_title
+id homeFragment
+id hourPicker
+id image1
+id image2
+id image3
+id image4
+id image5
+id mainFrameLayout
+id minutePicker
+id navigationView
 id numCups
 id resetButton
+id settingsFragment
 layout activity_main
+layout activity_nav2
+layout fragment_details
+layout fragment_home
+layout fragment_settings
 layout prac_widget
 menu bottom_nav_menu
 mipmap watering_launcher
@@ -63,6 +90,8 @@ string add_widget
 string app_name
 string app_widget_description
 string appwidget_text
+string hello_blank_fragment
+string title_activity_nav
 style Base.Theme.WidgetPrac
 style Theme.WidgetPrac
 style Theme.WidgetPrac.AppWidgetContainer

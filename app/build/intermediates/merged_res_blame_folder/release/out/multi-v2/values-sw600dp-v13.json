@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-44:/values-sw600dp-v13/values-sw600dp-v13.xml",
+            "outputFile": "com.bada.widgetprac.app-mergeReleaseResources-53:/values-sw600dp-v13/values-sw600dp-v13.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\2005ea55dfb3e5fef88b971c6d1ef30b\\transformed\\material-1.9.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\bd355be804cbf0f8c1b84dc511d644f9\\transformed\\material-1.9.0\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,10,11,12,13,14",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4",
@@ -23,7 +23,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\671294f13a5fc7ef8d1ee527d251baa4\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
+                    "source": "C:\\Users\\habac\\.gradle\\caches\\transforms-3\\0aada794ce919f5daf9ee0b8ca676275\\transformed\\appcompat-1.6.1\\res\\values-sw600dp-v13\\values-sw600dp-v13.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9",
                         "startColumns": "4,4,4,4,4,4,4,4",

@@ -3,4 +3,14 @@
     <string name="appwidget_text">물꼬대 위젯</string>
     <string name="add_widget">위젯 추가</string>
     <string name="app_widget_description">물꼬대 위젯 입니다</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_nav">NavActivity</string>
+
+    <string-array name="components_array">
+        <item>1L (Large)</item>
+        <item>550ml(Medium)</item>
+        <item>220ml (Small)</item>
+    </string-array>
+
 </resources>

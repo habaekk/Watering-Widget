@@ -1,4 +1,4 @@
-#Fri Oct 06 17:59:48 KST 2023
+#Wed Oct 11 11:26:34 KST 2023
 base.0=C\:\\Users\\habac\\AndroidStudioProjects\\widgetPrac\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
 base.1=C\:\\Users\\habac\\AndroidStudioProjects\\widgetPrac\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes2.dex
 path.0=classes.dex

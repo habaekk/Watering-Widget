@@ -4,7 +4,7 @@
     name=":app"
     type="APP"
     maven="widgetPrac:app:"
-    agpVersion="8.1.1"
+    agpVersion="8.1.2"
     buildFolder="build"
     bootClassPath="C:\Users\habac\AppData\Local\Android\Sdk\platforms\android-33\android.jar;C:\Users\habac\AppData\Local\Android\Sdk\build-tools\33.0.1\core-lambda-stubs.jar"
     javaSourceLevel="1.8"

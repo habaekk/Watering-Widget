@@ -1,6 +1,0 @@
-com.bada.widgetprac.test.app-annotation-experimental-1.3.0-0 C:\Users\habac\.gradle\caches\transforms-3\af459eb340fb4ed40f6d7beab03c4309\transformed\annotation-experimental-1.3.0\res
-com.bada.widgetprac.test.app-core-1.5.0-1 C:\Users\habac\.gradle\caches\transforms-3\c6b93d0b4c3a6bbf2cfec441696de937\transformed\core-1.5.0\res
-com.bada.widgetprac.test.app-androidTest-2 C:\Users\habac\AndroidStudioProjects\widgetPrac\app\build\generated\res\resValues\androidTest\debug
-com.bada.widgetprac.test.app-mergeDebugAndroidTestResources-3 C:\Users\habac\AndroidStudioProjects\widgetPrac\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
-com.bada.widgetprac.test.app-mergeDebugAndroidTestResources-4 C:\Users\habac\AndroidStudioProjects\widgetPrac\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
-com.bada.widgetprac.test.app-merged_res-5 C:\Users\habac\AndroidStudioProjects\widgetPrac\app\build\intermediates\merged_res\debugAndroidTest

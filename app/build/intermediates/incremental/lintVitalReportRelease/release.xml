@@ -1,11 +1,12 @@
 <variant
     name="release"
+    useSupportLibraryVectorDrawables="true"
     package="com.bada.widgetprac"
     minSdkVersion="24"
     targetSdkVersion="33"
     mergedManifest="build\intermediates\merged_manifest\release\AndroidManifest.xml"
     manifestMergeReport="build\outputs\logs\manifest-merger-release-report.txt"
-    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.1;proguard-rules.pro"
+    proguardFiles="build\intermediates\default_proguard_files\global\proguard-android-optimize.txt-8.1.2;proguard-rules.pro"
     partialResultsDir="build\intermediates\lint_vital_partial_results\release\out">
   <buildFeatures
       viewBinding="true"
@@ -26,6 +27,6 @@
       applicationId="com.bada.widgetprac"
       generatedSourceFolders="build\generated\ap_generated_sources\release\out;build\generated\data_binding_base_class_source_out\release\out"
       generatedResourceFolders="build\generated\res\resValues\release"
-      desugaredMethodsFiles="C:\Users\habac\.gradle\caches\transforms-3\04e5d05c01acb94b59a46828de8a778e\transformed\D8BackportedDesugaredMethods.txt">
+      desugaredMethodsFiles="C:\Users\habac\.gradle\caches\transforms-3\e6d864f2b5c8da99be7188e535eab252\transformed\D8BackportedDesugaredMethods.txt">
   </mainArtifact>
 </variant>
