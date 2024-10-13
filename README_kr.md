@@ -1,50 +1,52 @@
 
-# 💧 Watering
-
-`Watering` is an Android application that helps you track and manage your daily water intake. With various widgets, you can easily record your water consumption and review past intake records.
-
-## 🌟 Key Features
-
--   **Widget Support for Various Containers**: Easily record your water intake by selecting from different container types such as cups, tumblers, and bottles.
-
--   **Daily Intake Tracking**: View your daily water intake at a glance on the home screen.
-
--   **Intake History Review**: Review and manage your water intake over the past 7 days.
-
--   **User-Friendly Interface**: Intuitive design makes it easy for anyone to use.
+# 💧 물꼬대 (Watering)
 
 
-## 🚀 How to Use
 
-### Home Screen
+물꼬대는 일일 물 섭취량을 추적하고 관리할 수 있는 안드로이드 애플리케이션입니다. 다양한 위젯을 통해 손쉽게 물 섭취를 기록하고, 과거의 섭취 기록을 확인할 수 있습니다.
 
--   View your daily water intake at a glance.
+## 🌟 주요 기능
 
--   Icons for cups, tumblers, and bottles display the amount of water consumed.
+-   **다양한 용기의 위젯 지원**: 컵, 텀블러, 병 등 다양한 물 용량을 선택하여 위젯으로 섭취량을 손쉽게 기록할 수 있습니다.
 
+-   **일일 섭취량 추적**: 홈 화면에서 오늘의 물 섭취량을 한눈에 확인할 수 있습니다.
 
-### Using Widgets
+-   **섭취 기록 확인**: 지난 7일간의 물 섭취 내역을 확인하고 관리할 수 있습니다.
 
--   Add a widget to your home screen for quick water intake logging.
-
--   Each widget manages the intake amount for its respective container.
-
--   Tap the icon to increase the intake. Use the reset button to clear the intake.
+-   **사용자 친화적인 인터페이스**: 직관적인 디자인으로 누구나 쉽게 사용할 수 있습니다.
 
 
-### Reviewing Intake History
+## 🚀 사용 방법
 
--   Select the **History** tab from the bottom navigation bar.
+### 홈 화면
 
--   Review your water intake for the past 7 days by date.
+-   오늘의 물 섭취량을 한눈에 확인할 수 있습니다.
 
-
-### Detailed Information
-
--   Check the **Details** tab for usage instructions and additional information.
+-   컵, 텀블러, 병 아이콘이 채워진 정도로 섭취량을 표시합니다.
 
 
-## 🗂️ Project Structure
+### 위젯 사용
+
+-   홈 화면에 위젯을 추가하여 빠르게 물 섭취를 기록할 수 있습니다.
+
+-   각 위젯은 해당 용기의 섭취량을 관리합니다.
+
+-   아이콘을 터치하여 섭취량을 증가시킵니다. 리셋 버튼으로 초기화할 수 있습니다.
+
+
+### 섭취 기록 확인
+
+-   하단 네비게이션 바에서 **History** 탭을 선택합니다.
+
+-   지난 7일간의 물 섭취 내역을 날짜별로 확인할 수 있습니다.
+
+
+### 상세 정보
+
+-   **Details** 탭에서 앱의 사용 방법 및 추가 정보를 확인할 수 있습니다.
+
+
+## 🗂️ 프로젝트 구조
 
 ```
 widgetPrac/
@@ -73,7 +75,7 @@ widgetPrac/
 │   │   │   │               ├── SettingsFragment.kt
 │   │   │   │               ├── PracWidget.kt
 │   │   │   │               └── TumblerAppWidget.kt
-│   │   │   ├── res/ # Omitted in this repository
+│   │   │   ├── res/ # 이 레포지토리에서는 생략됨
 │   │   │   │   ├── layout/
 │   │   │   │   │   ├── activity_main.xml
 │   │   │   │   │   └── prac_widget.xml
@@ -90,4 +92,4 @@ widgetPrac/
         └── gradle-wrapper.jar
 ```
 
-## 🛡️ License
+## 🛡️ 라이선스
