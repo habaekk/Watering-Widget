@@ -1,5 +1,7 @@
 
 # 💧 Watering
+[English](https://github.com/habaekk/Watering-Widget) | [한국어](https://github.com/habaekk/Watering-Widget/blob/main/README_kr.md)
+  
 
 `Watering` is an Android application that helps you track and manage your daily water intake. With various widgets, you can easily record your water consumption and review past intake records.
 

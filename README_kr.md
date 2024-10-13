@@ -1,9 +1,11 @@
 
-# 💧 물꼬대 (Watering)
+# 💧 물꼬대
+[English](https://github.com/habaekk/Watering-Widget) | [한국어](https://github.com/habaekk/Watering-Widget/blob/main/README_kr.md)
+
+  
 
 
-
-물꼬대는 일일 물 섭취량을 추적하고 관리할 수 있는 안드로이드 애플리케이션입니다. 다양한 위젯을 통해 손쉽게 물 섭취를 기록하고, 과거의 섭취 기록을 확인할 수 있습니다.
+`물꼬대`는 일일 물 섭취량을 추적하고 관리할 수 있는 안드로이드 애플리케이션입니다. 다양한 위젯을 통해 손쉽게 물 섭취를 기록하고, 과거의 섭취 기록을 확인할 수 있습니다.
 
 ## 🌟 주요 기능
 
