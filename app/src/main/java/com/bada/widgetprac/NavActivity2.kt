@@ -15,6 +15,7 @@ import com.bada.widgetprac.databinding.ActivityNav2Binding
 private const val TAG_HOME = "home_fragment"
 private const val TAG_SETTINGS = "settings_fragment"
 private const val TAG_DETAILS = "details_fragment"
+private const val TAG_HISTORY = "history_fragment"
 
 class NavActivity2 : AppCompatActivity() {
 
@@ -32,8 +33,9 @@ class NavActivity2 : AppCompatActivity() {
         binding.navigationView.setOnItemSelectedListener { item ->
             when(item.itemId) {
                 R.id.homeFragment -> setFragment(TAG_HOME, HomeFragment())
-                R.id.settingsFragment -> setFragment(TAG_SETTINGS, SettingsFragment())
+                //R.id.settingsFragment -> setFragment(TAG_SETTINGS, SettingsFragment())
                 R.id.detailsFragment-> setFragment(TAG_DETAILS, DetailsFragment())
+                R.id.historyFragment-> setFragment(TAG_HISTORY, HistoryFragment())
             }
             true
         }
@@ -50,9 +52,14 @@ class NavActivity2 : AppCompatActivity() {
         val home = manager.findFragmentByTag(TAG_HOME)
         val settings = manager.findFragmentByTag(TAG_SETTINGS)
         val details = manager.findFragmentByTag(TAG_DETAILS)
+        val history = manager.findFragmentByTag(TAG_HISTORY)
 
         if (home != null){
             fragTransaction.hide(home)
+        }
+
+        if (history != null) {
+            fragTransaction.hide(history)
         }
 
         if (settings != null){
@@ -66,6 +73,11 @@ class NavActivity2 : AppCompatActivity() {
         if (tag == TAG_HOME) {
             if (home!=null){
                 fragTransaction.show(home)
+            }
+        }
+        else if (tag == TAG_HISTORY) {
+            if (history != null) {
+                fragTransaction.show(history)
             }
         }
         else if (tag == TAG_SETTINGS) {

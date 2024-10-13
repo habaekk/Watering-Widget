@@ -8,6 +8,7 @@ import android.content.Context
 import android.content.Intent
 import android.os.Bundle
 import android.widget.RemoteViews
+import java.util.Date
 
 
 /**
@@ -99,7 +100,7 @@ class PracWidget : AppWidgetProvider() {
             println("viewId: $viewId")
             views.setImageViewResource(viewId, nextImage)
 
-            var counter = MyApplication.preferences.getString("num", "0").toInt()
+            var counter = MyApplication.preferences.getStringCups(Date(), "0").toInt()
 
             if (nextImage == R.drawable.cup_filled) {
                 if (counter < 10)
@@ -109,13 +110,13 @@ class PracWidget : AppWidgetProvider() {
                     counter--
             }
 
-            MyApplication.preferences.setString("num", counter.toString())
+            MyApplication.preferences.setStringCups(Date(), counter.toString())
 
             appWidgetManager.updateAppWidget(appWidgetIds, views)
         }
 
         if (RESET_CLICK == intent.action) {
-            val viewId = intent.getIntExtra(WIDGET_VIEW_ID, 0)
+            val viewId = intent.getIntExtra(WIDGET_VIEW_ID, 0) // xxxxxxxxx
 
             val appWidgetManager = AppWidgetManager.getInstance(context)
             val appWidgetIds = appWidgetManager.getAppWidgetIds(
@@ -123,7 +124,7 @@ class PracWidget : AppWidgetProvider() {
             )
             val views = RemoteViews(context.packageName, R.layout.prac_widget)
 
-            MyApplication.preferences.setString("num", "0")
+            MyApplication.preferences.setStringCups(Date(), "0")
 
             views.setImageViewResource(R.id.cupButton1, R.drawable.cup_empty)
             views.setImageViewResource(R.id.cupButton2, R.drawable.cup_empty)
@@ -138,7 +139,7 @@ class PracWidget : AppWidgetProvider() {
 
 
 
-            val sharedPreferences = context.getSharedPreferences("MyWidgetPrefs", Context.MODE_PRIVATE)
+            val sharedPreferences = context.getSharedPreferences("CupsOnOff", Context.MODE_PRIVATE)
             with (sharedPreferences.edit()) {
                 putBoolean(R.id.cupButton1.toString(), false)
                 putBoolean(R.id.cupButton2.toString(), false)
@@ -159,7 +160,7 @@ class PracWidget : AppWidgetProvider() {
     }
 
     private fun someLogicToCheckCurrentState(context: Context, viewId: Int): Boolean {
-        val sharedPreferences = context.getSharedPreferences("MyWidgetPrefs", Context.MODE_PRIVATE)
+        val sharedPreferences = context.getSharedPreferences("CupsOnOff", Context.MODE_PRIVATE)
         val currentState = sharedPreferences.getBoolean(viewId.toString(), false)
         // Toggle the state
         val newState = !currentState
@@ -169,36 +170,4 @@ class PracWidget : AppWidgetProvider() {
         }
         return newState
     }
-
-
-        override fun onEnabled(context: Context) {
-            super.onEnabled(context)
-
-        }
-
-        override fun onDisabled(context: Context) {
-            super.onDisabled(context)
-        }
-
-        override fun onAppWidgetOptionsChanged(
-            context: Context?,
-            appWidgetManager: AppWidgetManager?,
-            appWidgetId: Int,
-            newOptions: Bundle?
-        ) {
-            super.onAppWidgetOptionsChanged(context, appWidgetManager, appWidgetId, newOptions)
-        }
-
-        override fun onRestored(
-            context: Context?,
-            oldWidgetIds: IntArray?,
-            newWidgetIds: IntArray?
-        ) {
-            super.onRestored(context, oldWidgetIds, newWidgetIds)
-        }
-
-        override fun onDeleted(context: Context?, appWidgetIds: IntArray?) {
-            super.onDeleted(context, appWidgetIds)
-        }
-
 }

@@ -6,12 +6,18 @@
         android:title="Main" />
 
     <item
-        android:id="@+id/settingsFragment"
-        android:icon="@drawable/ic_settings"
-        android:title="Settings" />
-
+        android:id="@+id/historyFragment"
+        android:icon="@drawable/ic_history"
+        android:title="History" />
+    <!--
+        <item
+            android:id="@+id/settingsFragment"
+            android:icon="@drawable/ic_settings"
+            android:title="Settings" />
+    -->
     <item
         android:id="@+id/detailsFragment"
         android:icon="@drawable/ic_details"
         android:title="Details" />
+
 </menu>

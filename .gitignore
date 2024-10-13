@@ -1,0 +1,45 @@
+# Android Studio specific files
+.idea/
+.gradle/
+local.properties
+/.cxx/
+.externalNativeBuild/
+
+# Gradle files
+*.iml
+.gradle/
+build/
+captures/
+output/
+*.log
+
+# Android-specific files
+*.apk
+*.ap_
+*.dex
+*.class
+*.so
+*.jar
+*.war
+*.ear
+
+# Proguard
+proguard/
+proguard-*.txt
+
+# IntelliJ
+*.iws
+*.ipr
+*.i*~
+
+# Res folder (as requested)
+app/src/main/res/
+
+# User-specific files
+*.keystore
+*.jks
+*.env
+
+# Others
+.DS_Store
+*.swp

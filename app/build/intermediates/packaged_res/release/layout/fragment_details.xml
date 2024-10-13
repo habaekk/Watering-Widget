@@ -40,7 +40,7 @@
             android:id="@+id/image2"
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            android:src="@drawable/details_4"
+            android:src="@drawable/details_2"
             android:layout_marginTop="12dp"/>
 
         <TextView
@@ -55,7 +55,7 @@
             android:id="@+id/image3"
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            android:src="@drawable/details_5"
+            android:src="@drawable/details_3"
             android:layout_marginTop="12dp"/>
 
         <TextView
@@ -65,12 +65,12 @@
             android:textSize="16sp"
             android:text="Description for image 3" />
 
-        <!-- Image 2 -->
+        <!-- Image 4 -->
         <ImageView
             android:id="@+id/image4"
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            android:src="@drawable/details_3"
+            android:src="@drawable/details_4"
             android:layout_marginTop="12dp"/>
 
         <TextView
@@ -80,12 +80,12 @@
             android:textSize="16sp"
             android:text="Description for image 4" />
 
-        <!-- Image 2 -->
+        <!-- Image 5 -->
         <ImageView
             android:id="@+id/image5"
             android:layout_width="match_parent"
             android:layout_height="600dp"
-            android:src="@drawable/details_2"
+            android:src="@drawable/details_5"
             android:layout_marginTop="12dp"/>
 
         <TextView

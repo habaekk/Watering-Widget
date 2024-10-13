@@ -4,6 +4,10 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-xxxhdpi\\watering_launcher_foreground.webp"
     },
     {
+        "merged": "com.bada.widgetprac.app-merged_res-55:/layout_fragment_history.xml.flat",
+        "source": "com.bada.widgetprac.app-main-56:/layout/fragment_history.xml"
+    },
+    {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_details_1.jpg.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\details_1.jpg"
     },
@@ -20,10 +24,6 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\xml\\backup_rules.xml"
     },
     {
-        "merged": "com.bada.widgetprac.app-merged_res-55:/drawable_details_2.jpg.flat",
-        "source": "com.bada.widgetprac.app-main-56:/drawable/details_2.jpg"
-    },
-    {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\mipmap-xxxhdpi_watering_launcher.webp.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-xxxhdpi\\watering_launcher.webp"
     },
@@ -34,6 +34,10 @@
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_ic_home.png.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\ic_home.png"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_history_layout.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\history_layout.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable-nodpi_example_appwidget_preview.png.flat",
@@ -72,8 +76,8 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-xhdpi\\watering_launcher.webp"
     },
     {
-        "merged": "com.bada.widgetprac.app-merged_res-55:/drawable_details_5.jpg.flat",
-        "source": "com.bada.widgetprac.app-main-56:/drawable/details_5.jpg"
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_bottle_app_widget.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\bottle_app_widget.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_ic_settings.png.flat",
@@ -92,8 +96,16 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable-v21\\app_widget_inner_view_background.xml"
     },
     {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\xml_tumbler_app_widget_info.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\xml\\tumbler_app_widget_info.xml"
+    },
+    {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\mipmap-xxxhdpi_watering_launcher_round.webp.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-xxxhdpi\\watering_launcher_round.webp"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_items_history.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\items_history.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_details_5.jpg.flat",
@@ -102,10 +114,6 @@
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\menu_bottom_nav_menu.xml.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\menu\\bottom_nav_menu.xml"
-    },
-    {
-        "merged": "com.bada.widgetprac.app-merged_res-55:/layout_fragment_details.xml.flat",
-        "source": "com.bada.widgetprac.app-main-56:/layout/fragment_details.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_cup_empty.png.flat",
@@ -120,12 +128,20 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\boundary.xml"
     },
     {
-        "merged": "com.bada.widgetprac.app-merged_res-55:/drawable_details_4.jpg.flat",
-        "source": "com.bada.widgetprac.app-main-56:/drawable/details_4.jpg"
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_item_layout.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_ic_history.png.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\ic_history.png"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_fragment_settings.xml.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\fragment_settings.xml"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_tumbler_app_widget.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\tumbler_app_widget.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\xml_data_extraction_rules.xml.flat",
@@ -140,8 +156,16 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-anydpi-v26\\watering_launcher.xml"
     },
     {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_tumbler_filled.png.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\tumbler_filled.png"
+    },
+    {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_plus.png.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\plus.png"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_fragment_history.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\fragment_history.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_fragment_home.xml.flat",
@@ -184,16 +208,16 @@
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\xml\\prac_widget_info.xml"
     },
     {
-        "merged": "com.bada.widgetprac.app-merged_res-55:/drawable_details_3.jpg.flat",
-        "source": "com.bada.widgetprac.app-main-56:/drawable/details_3.jpg"
-    },
-    {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\layout_activity_main.xml.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\layout\\activity_main.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_ic_details.png.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\ic_details.png"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\xml_bottle_app_widget_info.xml.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\xml\\bottle_app_widget_info.xml"
     },
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_details_4.jpg.flat",
@@ -210,5 +234,9 @@
     {
         "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\mipmap-hdpi_watering_launcher.webp.flat",
         "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\mipmap-hdpi\\watering_launcher.webp"
+    },
+    {
+        "merged": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-merged_res-55:\\drawable_tumbler_empty.png.flat",
+        "source": "C:\\Users\\habac\\.gradle\\daemon\\8.0\\com.bada.widgetprac.app-main-56:\\drawable\\tumbler_empty.png"
     }
 ]

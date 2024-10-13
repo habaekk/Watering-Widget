@@ -45,11 +45,17 @@ class SettingsFragment : Fragment() {
 
         val hourPicker: NumberPicker = view.findViewById(R.id.hourPicker)
         hourPicker.minValue = 0
-        hourPicker.maxValue = 24
+        hourPicker.maxValue = 23
 
         val minutePicker: NumberPicker = view.findViewById(R.id.minutePicker)
+
+        // Set the minimum and maximum values based on the indices (0 to 5, since you have 6 values)
         minutePicker.minValue = 0
-        minutePicker.maxValue = 59
+        minutePicker.maxValue = 5
+
+        // Map those indices to your desired values
+        val displayedValues = arrayOf("0", "10", "20", "30", "40", "50")
+        minutePicker.displayedValues = displayedValues
 
     }
 

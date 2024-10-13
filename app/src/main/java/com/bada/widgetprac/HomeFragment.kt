@@ -7,6 +7,7 @@ import android.view.View
 import android.view.ViewGroup
 import android.widget.ImageView
 import android.widget.TextView
+import java.util.Date
 
 class HomeFragment : Fragment() {
 
@@ -18,7 +19,9 @@ class HomeFragment : Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
 
-        var counter : Int = 0
+        var counterCups : Int = 0
+        var counterTums : Int = 0
+        var counterBots : Int = 0
 
         val cup1 = view.findViewById<ImageView>(R.id.cup1)
         val cup2 = view.findViewById<ImageView>(R.id.cup2)
@@ -31,21 +34,44 @@ class HomeFragment : Fragment() {
         val cup9 = view.findViewById<ImageView>(R.id.cup9)
         val cup10 = view.findViewById<ImageView>(R.id.cup10)
 
+        val tum1 = view.findViewById<ImageView>(R.id.tum1)
+        val tum2 = view.findViewById<ImageView>(R.id.tum2)
+        val tum3 = view.findViewById<ImageView>(R.id.tum3)
+        val tum4 = view.findViewById<ImageView>(R.id.tum4)
 
-        val counterNum = view.findViewById<TextView>(R.id.numCups)
-        counter = MyApplication.preferences.getString("num", "0").toInt()
-        counterNum.text = counter.toString()
+        val bot1 = view.findViewById<ImageView>(R.id.bot1)
+        val bot2 = view.findViewById<ImageView>(R.id.bot2)
+        val bot3 = view.findViewById<ImageView>(R.id.bot3)
+
+        counterCups = MyApplication.preferences.getStringCups(Date(), "0").toInt()
+        var counterStringCups = counterCups.toString()
+
+        counterTums = MyApplication.preferences.getStringTums(Date(), "0").toInt()
+        var counterStringTums = counterTums.toString()
+
+        counterBots = MyApplication.preferences.getStringBots(Date(), "0").toInt()
+        var counterStringBots = counterBots.toString()
+
 
         val cups = listOf(cup1, cup2, cup3, cup4, cup5, cup6, cup7, cup8, cup9, cup10)
+        val tums = listOf(tum1, tum2, tum3, tum4)
+        val bots = listOf(bot1, bot2, bot3)
 
-        // Reset all cups to empty
+        // Reset all cups, tumblers, and bottles to empty
         cups.forEach { it.setImageResource(R.drawable.cup_empty) }
+        tums.forEach { it.setImageResource(R.drawable.tumbler_empty) }
+        bots.forEach { it.setImageResource(R.drawable.bottle_empty) }
 
-        // Now set the cups to filled based on the counter value
-        for (i in 0 until counter) {
-            if (i < cups.size) {
-                cups[i].setImageResource(R.drawable.cup_filled)
-            }
+        // Set the cups to filled based on the counter value
+        for (i in 0 until counterCups) {
+            cups[i].setImageResource(R.drawable.cup_filled)
+        }
+        for (i in 0 until counterTums) {
+            tums[i].setImageResource(R.drawable.tumbler_filled)
+        }
+        for (i in 0 until counterBots) {
+            bots[i].setImageResource(R.drawable.bottle_filled)
+
         }
     }
 

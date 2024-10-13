@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="components_array">
-        <item>1L (Large)</item>
-        <item>550ml(Medium)</item>
         <item>220ml (Small)</item>
+        <item>550ml(Medium)</item>
+        <item>1L (Large)</item>
     </string-array>
     <color name="black">#FF000000</color>
     <color name="light_blue_200">#FF81D4FA</color>

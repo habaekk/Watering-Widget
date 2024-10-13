@@ -21,6 +21,15 @@ public final class FragmentHomeBinding implements ViewBinding {
   private final FrameLayout rootView;
 
   @NonNull
+  public final ImageView bot1;
+
+  @NonNull
+  public final ImageView bot2;
+
+  @NonNull
+  public final ImageView bot3;
+
+  @NonNull
   public final ImageView cup1;
 
   @NonNull
@@ -53,12 +62,29 @@ public final class FragmentHomeBinding implements ViewBinding {
   @NonNull
   public final TextView numCups;
 
-  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull ImageView cup1,
+  @NonNull
+  public final ImageView tum1;
+
+  @NonNull
+  public final ImageView tum2;
+
+  @NonNull
+  public final ImageView tum3;
+
+  @NonNull
+  public final ImageView tum4;
+
+  private FragmentHomeBinding(@NonNull FrameLayout rootView, @NonNull ImageView bot1,
+      @NonNull ImageView bot2, @NonNull ImageView bot3, @NonNull ImageView cup1,
       @NonNull ImageView cup10, @NonNull ImageView cup2, @NonNull ImageView cup3,
       @NonNull ImageView cup4, @NonNull ImageView cup5, @NonNull ImageView cup6,
       @NonNull ImageView cup7, @NonNull ImageView cup8, @NonNull ImageView cup9,
-      @NonNull TextView numCups) {
+      @NonNull TextView numCups, @NonNull ImageView tum1, @NonNull ImageView tum2,
+      @NonNull ImageView tum3, @NonNull ImageView tum4) {
     this.rootView = rootView;
+    this.bot1 = bot1;
+    this.bot2 = bot2;
+    this.bot3 = bot3;
     this.cup1 = cup1;
     this.cup10 = cup10;
     this.cup2 = cup2;
@@ -70,6 +96,10 @@ public final class FragmentHomeBinding implements ViewBinding {
     this.cup8 = cup8;
     this.cup9 = cup9;
     this.numCups = numCups;
+    this.tum1 = tum1;
+    this.tum2 = tum2;
+    this.tum3 = tum3;
+    this.tum4 = tum4;
   }
 
   @Override
@@ -99,6 +129,24 @@ public final class FragmentHomeBinding implements ViewBinding {
     // This is done to optimize the compiled bytecode for size and performance.
     int id;
     missingId: {
+      id = R.id.bot1;
+      ImageView bot1 = ViewBindings.findChildViewById(rootView, id);
+      if (bot1 == null) {
+        break missingId;
+      }
+
+      id = R.id.bot2;
+      ImageView bot2 = ViewBindings.findChildViewById(rootView, id);
+      if (bot2 == null) {
+        break missingId;
+      }
+
+      id = R.id.bot3;
+      ImageView bot3 = ViewBindings.findChildViewById(rootView, id);
+      if (bot3 == null) {
+        break missingId;
+      }
+
       id = R.id.cup1;
       ImageView cup1 = ViewBindings.findChildViewById(rootView, id);
       if (cup1 == null) {
@@ -165,8 +213,32 @@ public final class FragmentHomeBinding implements ViewBinding {
         break missingId;
       }
 
-      return new FragmentHomeBinding((FrameLayout) rootView, cup1, cup10, cup2, cup3, cup4, cup5,
-          cup6, cup7, cup8, cup9, numCups);
+      id = R.id.tum1;
+      ImageView tum1 = ViewBindings.findChildViewById(rootView, id);
+      if (tum1 == null) {
+        break missingId;
+      }
+
+      id = R.id.tum2;
+      ImageView tum2 = ViewBindings.findChildViewById(rootView, id);
+      if (tum2 == null) {
+        break missingId;
+      }
+
+      id = R.id.tum3;
+      ImageView tum3 = ViewBindings.findChildViewById(rootView, id);
+      if (tum3 == null) {
+        break missingId;
+      }
+
+      id = R.id.tum4;
+      ImageView tum4 = ViewBindings.findChildViewById(rootView, id);
+      if (tum4 == null) {
+        break missingId;
+      }
+
+      return new FragmentHomeBinding((FrameLayout) rootView, bot1, bot2, bot3, cup1, cup10, cup2,
+          cup3, cup4, cup5, cup6, cup7, cup8, cup9, numCups, tum1, tum2, tum3, tum4);
     }
     String missingId = rootView.getResources().getResourceName(id);
     throw new NullPointerException("Missing required view with ID: ".concat(missingId));
